@@ -58,7 +58,7 @@ while (count($PHOTOS)) {
         }
         else {
             foreach ($possiblePhotos as $pos => $photo)
-                if ($v['orientation'] == 'V' && $pos >= $start + 1)
+                if ($photo['orientation'] == 'V' && $pos >= $start + 1)
                     $possibleSlides[] = [$possiblePhotos[$start], $photo];
         }
     }
