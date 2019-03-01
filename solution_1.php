@@ -2,7 +2,6 @@
 
 /*
  * Sorry, this is not a fancy code but is the fastest approach to resolve Google HashCode :-)
- * This solution is suitable for every input
 */
 
 $INPUT = 1; // 1 and 2
